@@ -1,0 +1,9 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body, h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
