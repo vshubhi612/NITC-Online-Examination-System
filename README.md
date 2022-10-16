@@ -1,5 +1,5 @@
 # Digital Class
-> A full-stack MERN application allowing teachers to quickly and easily create and assign quizzes.
+> A full-stack MERN application allowing teachers to quickly and easily create and assign quiz.
 
 This was a group project where we built a full-stack app using the MERN stack. Digital Class is an improved way for teacher to create and assign quizzes all at the touch of the keyboard. Students will be able to take quizzes and see their grades where ever they are as long as they have internet access.
 
