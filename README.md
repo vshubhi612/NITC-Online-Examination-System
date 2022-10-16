@@ -25,7 +25,7 @@ They can take the quizzes and see their results with an option for adding feedba
 ## User Stories
 
 ```
-AS A teacher 
+As a teacher 
 I WANT to be able to create quizzes, assign them to my students, and analyze the results
 SO THAT I know how my students are doing
 ```
