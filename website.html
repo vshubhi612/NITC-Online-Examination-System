@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shubhi's gym</title>
+    <link rel="stylesheet" href="project2/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Girassol&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: url('fitness.jpg');
+            background-repeat: no-repeat;
+            height: 833px;
+            margin: 0px;
+            padding: 0px;
+            color: azure;
+            font-family: 'Girassol', cursive;
+        }
+
+        .left {
+            /* border:2px solid chocolate; */
+            display: inline-block;
+            position: absolute;
+            top: 12px;
+            left: 12px;
+        }
+
+        .mid {
+            /* border:2px solid darkgoldenrod; */
+            margin: 12px auto;
+            width: 45%;
+        }
+
+        .right {
+            /* border: 2px solid red; */
+            display: inline-block;
+            position: absolute;
+            top: 25px;
+            right: 30px;
+        }
+        .header{
+            position: sticky;
+        }
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 20px;
+        }
+
+        .navbar li a {
+            color: seashell;
+            text-decoration: none;
+            padding: 5px 15px;
+        }
+
+        .navbar li a:hover {
+            color: grey;
+            text-decoration: underline;
+        }
+
+        .left img {
+            width: 63px;
+            height: 46px;
+            display: block;
+            margin: auto;
+            filter: invert(100%);
+        }
+
+        .text {
+            text-align: center;
+        }
+
+        .btn {
+            background-color: rgba(0, 0, 0, 0.829);
+            color: lavenderblush;
+            border-radius: 10px;
+            padding: 4px 14px;
+            font-family: 'Girassol', cursive;
+        }
+
+        .btn:hover {
+            background-color: gray;
+        }
+
+        .container {
+            width: 33%;
+            margin: 34px 34px 34px 34px;
+            height: 300px;
+        }
+
+        #new {
+            padding: 24px 14px;
+            font-size: 30px;
+        }
+
+        .info {
+            display: block;
+            width: 94%;
+            text-align: center;
+            border-radius: 5px;
+            padding: 4px;
+            margin: 7px;
+            font-family: 'Girassol', cursive;
+        }
+        .btnn{
+            display: block;
+            width: 97%;
+            text-align: center;
+            border-radius: 5px;
+            padding: 4px;
+            margin: 7px;
+            font-family: 'Girassol', cursive;
+            background-color: grey;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="gymlogo.jpg" alt="logo">
+            <span class="text">Shubhi's gym</span>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call Us</button>
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <span id="new">Join the best gym of Lucknow</span>
+            <input type="text" class="info" placeholder="enter your name">
+            <input type="number" class="info" placeholder="enter your age">
+            <input type="text" class="info" placeholder="enter your gender">
+            <input type="text" class="info" placeholder="enter your locality">
+            <input type="email" class="info" placeholder="enter your email">
+            <input type="text" class="info" placeholder="enter your phone no">
+            <button class="btnn">Submit</button>
+        </div>
+    </main>
+</body>
+
+</html>
