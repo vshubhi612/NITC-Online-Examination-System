@@ -38,7 +38,7 @@ SO THAT I’ll be able to take them on the go
 ## Acceptance Criteria
 
 ```
-GIVEN the application
+Given the application
 WHEN I arrive on the home screen
 THEN I am presented with information and features of the app along with links for signing up and logging in
 WHEN I click on the sign up button
