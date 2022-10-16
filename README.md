@@ -30,7 +30,7 @@ I WANT to be able to create quizzes, assign them to my students, and analyze the
 SO THAT I know how my students are doing
 ```
 ```
-AS A student
+As a student
 I WANT to be able to view all the quizzes each of my teachers has made
 SO THAT I’ll be able to take them on the go
 ```
